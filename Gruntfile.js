@@ -162,7 +162,7 @@ module.exports = function(grunt) {
   *  Grunt task
   */
   grunt.registerTask('default', ['jshint']);
-  grunt.registerTask('server', ['build','concat:dist','uglify:vendor','connect:server','watch']);
+  grunt.registerTask('server', ['build',/*'concat:dist','uglify:vendor',*/'connect:server','watch']);
   grunt.registerTask('build_module', ['browserify:module',/*'exorcise',*/'uglify:module']);
   grunt.registerTask('build', ['jshint','bower','build_module']);
 
