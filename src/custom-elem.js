@@ -17,7 +17,7 @@ require("document-register-element");
 	    },
 	    attachedCallback : {
 	    	value: function() {
-    	    	this.innerHTML = "My component";
+    	    	this.innerHTML = "Hello World!!!!";
     	    	this.style.background = "rgb("+(parseInt(Math.random()*255))+","+(parseInt(Math.random()*255))+","+(parseInt(Math.random()*255))+")";
     	    },
     	    enumerable:false
